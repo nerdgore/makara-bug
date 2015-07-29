@@ -1,0 +1,22 @@
+{
+  "name": "makara-bug",
+  "version": "1.0.0",
+  "private": true,
+  "description": "simplified usecase to demonstrate makara problem",
+  "scripts": {
+    "start": "node index.js",
+    "develop": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Torsten Walter",
+    "email": "towalter@ebay.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "adaro": "^1.0.0",
+    "dust-makara-helpers": "^4.0.1",
+    "express": "^4.13.1",
+    "makara": "^2.0.1"
+  }
+}

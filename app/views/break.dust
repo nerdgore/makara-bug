@@ -1,0 +1,22 @@
+{>"layouts/master"/}
+
+{<title}{@message type="content" key="break.title"/}{/title}
+
+{<body}
+    <h1>{@message type="content" key="break.title"/}</h1>
+    <ol>
+        <li>{>"partials/inc"/}</li>
+        <li>{>"partials/inc"/}</li>
+        <li>{>"partials/inc"/}</li>
+        <li>{>"partials/inc"/}</li>
+        {! include more partials to break your app !}
+        <li>{>"partials/inc"/}</li>
+        <li>{>"partials/inc"/}</li>
+        <li>{>"partials/inc"/}</li>
+        <li>{>"partials/inc"/}</li>
+        <li>{>"partials/inc"/}</li>
+        <li>{>"partials/inc"/}</li>
+        <li>{>"partials/inc"/}</li>
+    </ol>
+
+{/body}
